@@ -11,7 +11,7 @@ npm install @alibaba_inc/decorators
 ```typescript
 import React, { useState, useEffect } from "react";
 import type { HooksProps } from "@alibaba_inc/decorators";
-import { State, Hooks, Get, Post, Perfect, Mount, match } from "@alibaba_inc/decorators";
+import { InitPerfectData, State, Hooks, Get, Post, Perfect, Mount, match } from "@alibaba_inc/decorators";
 
 type PerfectKey = "name" | "extract_nest_data";
 
